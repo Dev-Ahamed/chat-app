@@ -5,9 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "dev:socket": "nodemon server.mjs",
-    "build": "next build",
-    "start": "next start",
-    "start:socket": "node server.mjs",
+    "build": "next build && node server.mjs",
+    "start": "node server.mjs",
     "lint": "next lint"
   },
   "dependencies": {
