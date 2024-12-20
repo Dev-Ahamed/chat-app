@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "dev:socket": "nodemon server.mjs",
-    "build": "next build && node server.mjs",
+    "build": "next build",
     "start": "node server.mjs",
     "lint": "next lint"
   },
